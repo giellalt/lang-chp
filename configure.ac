@@ -24,7 +24,7 @@
 # third is email address for bug reports
 # fourth is name of packages made by make dist, excluding .tar.gz
 # fifth is the project web address
-AC_INIT([gtlangs-chp], [20110617], [bugs@divvun.no], [gtlangs-chp],
+AC_INIT([gtlangs-chp], [20110617], [feedback@divvun.no], [gtlangs-chp],
         [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
@@ -104,6 +104,10 @@ gt_PROG_VISLCG3
 # Tests and sets up XML to lexc conversion
 gt_PROG_SAXON
 
+# Check for SubEthaEdit/see
+AC_PATH_PROG([SEE], [see], [], [$PATH$PATH_SEPARATOR$with_see])
+
+# Check prerequisites for generated documentation
 AC_PATH_PROG([AWK],     [gawk],    [], [$PATH$PATH_SEPARATOR$with_awk])
 AC_PATH_PROG([FORREST], [forrest], [], [$PATH$PATH_SEPARATOR$with_forrest])
 AC_MSG_CHECKING([whether we can enable in-source documentation building])
