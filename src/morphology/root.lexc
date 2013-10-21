@@ -13,110 +13,75 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
-! !!            !!!Chipewyan morphological analyser                      !
+! !!              !!!Dene Suline morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Chipewyan LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
  
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Analysis symbols
-!! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
+!    ----------------
+!! The morphological analyses of wordforms of Dene Suline are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
-
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
-!! The Usage extents are marked using following tags:
- +Use/Sub   
- +Use/-Spell 
-
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
-
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
-!! The comparative forms are:
- +Comp +Superl
-!! Numerals are classified under:
- +Attr +Card
- +Ord 
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
-
-! Abbreviated words are classified with:
- +ABBR +ACR 
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
-
-!! Question and Focus particles:
- +Qst +Foc
-
-
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
-
-
-!! Derivations are classified under the morphophonetic form of the suffix, the
-!! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
-
-
-!! Morphophonology
-!! ---------------
-!! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
- {aä} {oö} {uü}
-
-!! And following triggers to control variation
- {front} {back}
-
-!! We have manually optimised the structure of our lexicon using following
-!! flag diacritics to restrict morhpological combinatorics:
-@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+Unsp+	!!= * @CODE@ 0, Unspecified person
+1Sg+	!!= * @CODE@ 1,
+2Sg+	!!= * @CODE@ 2
+3Sg+	!!= * @CODE@ 3
+4sg+	!!= * @CODE@ 4, the other
+5Sg+	!!= * @CODE@ 5, areal subject, it (place, condition, weather)
+12Du+	!!= * @CODE@ 12, first person dual inclusive
+13Du+	!!= * @CODE@ 13, first person dual exclusive
+2Du+	!!= * @CODE@ 22, second person dual
+3Du+	!!= * @CODE@ 33, third person dual
+1Pl+
+2Pl+
+3Pl+
+1SgO+
+2SgO+
+3SgO+
+4SgO+
++Asp	!!= * @CODE@ asp, aspect
++Dem	!!= * @CODE@ D, demonstrative
++Dim	!!= * @CODE@ dim, diminutive
++Du		!!= * @CODE@ du, dual
++Foc	!!= * @CODE@ foc, focus
++Impf	!!= * @CODE@ imp, imperfective (or prefix?)
++Imprs	!!= * @CODE@ impers, impersonal (+Impers?)
++Hab	!!= * @CODE@ hab, habitual
++Inc	!!= * @CODE@ inc, inceptive (Incpt?)
++Inch	!!= * @CODE@ incho, inchoative
++Iter	!!= * @CODE@ iter, iterative
++Mod	!!= * @CODE@ M mode (this seems more like category than property)
++Mom	!!= * @CODE@ momentaneous
++N		!!= * @CODE@ N, noun
++Neg	!!= * @CODE@ neg, negative
++NI		!!= * @CODE@ NI, noun incorporation (probably not a tag)
++Num	!!= * @CODE@ num, Numeral
++Obj	!!= * @CODE@ O, Object (have a look at this)
++Opt	!!= * @CODE@ opt, optative
++Po		!!= * @CODE@ P, Postposition
++Prf	!!= * @CODE@ perf, perfective
++PI		!!= * @CODE@ postposition incorporation (hmm)
++Pl		!!= * @CODE@ pl, Plural
++Qst	!!= * @CODE@ Q, question marker
++Qt		!!= * @CODE@ Qt, quantifier
++Recipr	!!= * @CODE@ rec, reciprocal
++Refl	!!= * @CODE@ refl, reflexive
++Prt	!!= * @CODE@ T, tense (past)
+Th+		!!= * @CODE@ Th, thematic prefix
++V		!!= * @CODE@ V, verb
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns   ;
-0   Verbs   ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
+Nouns   ;
+Verbs   ;
+Adjectives  ;
+Pronouns    ;
+Numerals    ;
+Prefixes    ;
+Postpositions ;
 
-! vim: set ft=xfst-lexc:
