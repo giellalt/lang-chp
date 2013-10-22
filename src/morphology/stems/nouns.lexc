@@ -1,8 +1,20 @@
-!! Nouns
-!! -----
-!! Nouns in UNDEFINED language are things.
+!! !!!Nouns
+!  -----
+!! Nouns in Dene
 
 LEXICON Nouns
-noun    Cases   ;
+1Sg+:se nounstems ;
+2Sg+:ne nounstems ;
+3Sg+:be nounstems ;
+1Du+:nuhe nounstems ;
+2Du+:behe nounstems ;
+1Pl+:nuhe nounstems ;
+2Pl+:nuhe nounstems ;
+3Pl+:hube nounstems ;
+Imprs+:ʔe nounstems ; ! general person
+Ar+:hu    nounstems ; ! areal person
+          nounstems ;
 
-! vim: set ft=xfst-lexc:
+LEXICON nounstems
+bes ALI_VH "knife" ;
+
