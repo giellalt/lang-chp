@@ -3,8 +3,8 @@
 !! The UNDEFINED language nouns inflect in cases.
 
 LEXICON ALI_VH
-+N:é # ;
-!:%>%^VOIé # ;
++N+PNS:%>é # ;
++N: # ;
 
 
 
