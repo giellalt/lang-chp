@@ -26,11 +26,12 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
++PNS   !!= * @CODE@ possessed noun suffix
 Unsp+	!!= * @CODE@ 0, Unspecified person
 1Sg+	!!= * @CODE@ 1,
 2Sg+	!!= * @CODE@ 2
 3Sg+	!!= * @CODE@ 3
-4sg+	!!= * @CODE@ 4, the other
+4Sg+	!!= * @CODE@ 4, the other
 Ar+		!!= * @CODE@ 5, areal subject, it (place, condition, weather)
 12Du+	!!= * @CODE@ 12, first person dual inclusive
 13Du+	!!= * @CODE@ 13, first person dual exclusive
