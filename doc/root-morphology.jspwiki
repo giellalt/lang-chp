@@ -1,55 +1,55 @@
 
-           !!!Chipewyan morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Chipewyan LANGUAGE.
+             !!!Dene Suline morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
 
 
  !!!Multichar_Symbols definitions
 
 !!Analysis symbols
-----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
+The morphological analyses of wordforms of Dene Suline are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
-
-The parts of speech are further split up into:
-
-The Usage extents are marked using following tags:
-
-The nominals are inflected in the following Case and Number
-
-The possession is marked as such:
-The comparative forms are:
-Numerals are classified under:
-Verb moods are:
-Verb personal forms are:
-Other verb forms are
-
-Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
-Special multiword units are analysed with:
-Non-dictionary words can be recognised with:
-
-Question and Focus particles:
-
-
-Semantics are classified with
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
-
-
-Morphophonology
----------------
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-
-And following triggers to control variation
-
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics:
+ * Unsp+	 0, Unspecified person
+ * 1Sg+	 1,
+ * 2Sg+	 2
+ * 3Sg+	 3
+ * 4sg+	 4, the other
+ * Ar+		 5, areal subject, it (place, condition, weather)
+ * 12Du+	 12, first person dual inclusive
+ * 13Du+	 13, first person dual exclusive
+ * 2Du+	 22, second person dual
+ * 3Du+	 33, third person dual
+ * +Asp	 asp, aspect
+ * +Dem	 D, demonstrative
+ * +Dim	 dim, diminutive
+ * +Du		 du, dual
+ * +Foc	 foc, focus
+ * +Impf	 imp, imperfective (or prefix?)
+ * +Imprs	 impers, impersonal (+Impers?)
+ * +Hab	 hab, habitual
+ * +Inc	 inc, inceptive (Incpt?)
+ * +Inch	 incho, inchoative
+ * +Iter	 iter, iterative
+ * +Mod	 M mode (this seems more like category than property)
+ * +Mom	 momentaneous
+ * +N		 N, noun
+ * +Neg	 neg, negative
+ * +NI		 NI, noun incorporation (probably not a tag)
+ * +Num	 num, Numeral
+ * +Obj	 O, Object (have a look at this)
+ * +Opt	 opt, optative
+ * +Po		 P, Postposition
+ * +Prf	 perf, perfective
+ * +PI		 postposition incorporation (hmm)
+ * +Pl		 pl, Plural
+ * +Qst	 Q, question marker
+ * +Qt		 Qt, quantifier
+ * +Recipr	 rec, reciprocal
+ * +Refl	 refl, reflexive
+ * +Prt	 T, tense (past)
+ * Th+		 Th, thematic prefix
+ * +V		 V, verb
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
