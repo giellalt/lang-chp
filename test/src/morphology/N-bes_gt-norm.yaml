@@ -1,0 +1,24 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  
+  Noun - bes - ok : #
+     bes+N: bes
+     1Sg+bes+N+PNS: sebezé
+     2Sg+bes+N+PNS: nebezé
+     3Sg+bes+N+PNS: bebezé
+     4Sg+bes+N+PNS: yebezé
+     1Du+bes+N+PNS: nuhebezé
+     1Pl+bes+N+PNS: nuhebezé
+     2Pl+bes+N+PNS: nuhebezé
+     3Pl+bes+N+PNS: hubebezé
+     Unsp+bes+N+PNS: ɂebezé
+     Ar+bes+N+PNS: hobezé
+
