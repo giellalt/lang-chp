@@ -10,59 +10,63 @@
 
 This is free and open source South Sámi morphology.
 
-             !!!Dënesųłiné morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dënesųłiné.
+             !!!Dene Suline morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
 
 
  !!!Multichar_Symbols definitions
 
 !!Analysis symbols
-The morphological analyses of wordforms of Dënesųłiné are presented
+The morphological analyses of wordforms of Dene Suline are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
- * +PNS    possessed noun suffix
- * Unsp+	 0, Unspecified person
- * 1Sg+	 1,
- * 2Sg+	 2
- * 3Sg+	 3
- * 4Sg+	 4, the other
- * Ar+		 5, areal subject, it (place, condition, weather)
- * 12Du+	 12, first person dual inclusive
- * 13Du+	 13, first person dual exclusive
- * 2Du+	 22, second person dual
- * 3Du+	 33, third person dual
+
+
  * +Asp	 asp, aspect
  * +Dem	 D, demonstrative
  * +Dim	 dim, diminutive
  * +Du		 du, dual
  * +Foc	 foc, focus
- * +Impf	 imp, imperfective (or prefix?)
- * +Imprs	 impers, impersonal (+Impers?)
  * +Hab	 hab, habitual
+ * +Hum		 Human
+ * Impf+	 imp, imperfective (or prefix?)
+ * +Imprs	 impers, impersonal (+Impers?)
  * +Inc	 inc, inceptive (Incpt?)
  * +Inch	 incho, inchoative
- * +Iter	 iter, iterative
+ * Iter+	 iter, iterative
  * +Mod	 M mode (this seems more like category than property)
  * +Mom	 momentaneous
  * +N		 N, noun
+ * NI+		 NI, noun incorporation (probably not a tag)
  * +Neg	 neg, negative
- * +NI		 NI, noun incorporation (probably not a tag)
  * +Num	 num, Numeral
  * +Obj	 O, Object (have a look at this)
- * +Opt	 opt, optative
- * +Po		 P, Postposition
- * +Prf	 perf, perfective
- * +PI		 postposition incorporation (hmm)
+ * Opt+	 opt, optative
+ * +PI+	 postposition incorporation (hmm)
+ * +PNS    possessed noun suffix
+ * +Part    Part, particle 
  * +Pl		 pl, Plural
+ * +Po		 P, Postposition
+ * Prf+	 perf, perfective
+ * +Prt	 T, tense (past)
  * +Qst	 Q, question marker
  * +Qt		 Qt, quantifier
- * +Recipr	 rec, reciprocal
- * +Refl	 refl, reflexive
- * +Prt	 T, tense (past)
- * Th+		 Th, thematic prefix
+ * Recipr+	 rec, reciprocal
+ * Refl+	 refl, reflexive
+ * +Use/Sub  Substandard, not implemented
  * +V		 V, verb
- * +Part    Part, particle
+ * 12Du+	 12, first person dual inclusive
+ * 13Du+	 13, first person dual exclusive
+ * 1Sg+	 1,
+ * 2Du+	 22, second person dual
+ * 2Sg+	 2
+ * 3Du+	 33, third person dual
+ * 3Sg+	 3
+ * 4Sg+	 4, the other
+ * Ar+		 5, areal subject, it (place, condition, weather)
+ * Th+		 Th, thematic prefix
+ * Unsp+	 0, Unspecified person
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:

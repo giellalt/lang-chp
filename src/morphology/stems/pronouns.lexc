@@ -1,8 +1,14 @@
 !! Pronouns
-!! --------
-!! Pronouns in UNDEFINED language are references to things.
+!  --------
+!! Denesųłine Pronouns 
 
 LEXICON Pronouns
-pronoun    Cases   ;
+si+Pron+Pers+1Sg:si # ;
+si+Pron+Pers+1Sg:sį # ;
+nen+Pron+Pers+2Sg:nen # ;
+nen+Pron+Pers+2Sg:nɛn # ;
+nen+Pron+Pers+2Sg:nën # ;
+ʔedini+Pron+Dem+Hum+Sg:ʔedini # ;
+ʔedini+Pron+Dem+Hum+Sg:ʔedëne # ;
 
-! vim: set ft=xfst-lexc:
+

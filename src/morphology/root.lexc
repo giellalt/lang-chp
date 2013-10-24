@@ -26,68 +26,88 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-+PNS   !!= * @CODE@ possessed noun suffix
-Unsp+	!!= * @CODE@ 0, Unspecified person
-1Sg+	!!= * @CODE@ 1,
-2Sg+	!!= * @CODE@ 2
-3Sg+	!!= * @CODE@ 3
-4Sg+	!!= * @CODE@ 4, the other
-Ar+		!!= * @CODE@ 5, areal subject, it (place, condition, weather)
-12Du+	!!= * @CODE@ 12, first person dual inclusive
-13Du+	!!= * @CODE@ 13, first person dual exclusive
-2Du+	!!= * @CODE@ 22, second person dual
-3Du+	!!= * @CODE@ 33, third person dual
-1Pl+
-2Pl+
-3Pl+
-1SgO+
-2SgO+
-3SgO+
-4SgO+
+
+Adv+
+Distr+
+Gen1+
+Gen2+
+Gen3+
+Incept+
+Ser+
+Semel+
+Cl/l+
+Cl/ł+
+Cl/d+
+Cl/0+
+
 +Asp	!!= * @CODE@ asp, aspect
 +Dem	!!= * @CODE@ D, demonstrative
 +Dim	!!= * @CODE@ dim, diminutive
 +Du		!!= * @CODE@ du, dual
 +Foc	!!= * @CODE@ foc, focus
-+Impf	!!= * @CODE@ imp, imperfective (or prefix?)
-+Imprs	!!= * @CODE@ impers, impersonal (+Impers?)
 +Hab	!!= * @CODE@ hab, habitual
++Hum		!!= * @CODE@ Human
+Impf+	!!= * @CODE@ imp, imperfective (or prefix?)
++Imprs	!!= * @CODE@ impers, impersonal (+Impers?)
 +Inc	!!= * @CODE@ inc, inceptive (Incpt?)
 +Inch	!!= * @CODE@ incho, inchoative
-+Iter	!!= * @CODE@ iter, iterative
+Iter+	!!= * @CODE@ iter, iterative
 +Mod	!!= * @CODE@ M mode (this seems more like category than property)
 +Mom	!!= * @CODE@ momentaneous
 +N		!!= * @CODE@ N, noun
+NI+		!!= * @CODE@ NI, noun incorporation (probably not a tag)
 +Neg	!!= * @CODE@ neg, negative
-+NI		!!= * @CODE@ NI, noun incorporation (probably not a tag)
 +Num	!!= * @CODE@ num, Numeral
 +Obj	!!= * @CODE@ O, Object (have a look at this)
-+Opt	!!= * @CODE@ opt, optative
-+Po		!!= * @CODE@ P, Postposition
-+Prf	!!= * @CODE@ perf, perfective
-+PI		!!= * @CODE@ postposition incorporation (hmm)
+Opt+	!!= * @CODE@ opt, optative
++PI+	!!= * @CODE@ postposition incorporation (hmm)
++PNS   !!= * @CODE@ possessed noun suffix
++Part   !!= * @CODE@ Part, particle 
 +Pl		!!= * @CODE@ pl, Plural
++Po		!!= * @CODE@ P, Postposition
+Prf+	!!= * @CODE@ perf, perfective
++Prt	!!= * @CODE@ T, tense (past)
 +Qst	!!= * @CODE@ Q, question marker
 +Qt		!!= * @CODE@ Qt, quantifier
-+Recipr	!!= * @CODE@ rec, reciprocal
-+Refl	!!= * @CODE@ refl, reflexive
-+Prt	!!= * @CODE@ T, tense (past)
-Th+		!!= * @CODE@ Th, thematic prefix
+Recipr+	!!= * @CODE@ rec, reciprocal
+Refl+	!!= * @CODE@ refl, reflexive
++Use/Sub !!= * @CODE@ Substandard, not implemented
 +V		!!= * @CODE@ V, verb
-+Part   !!= * @CODE@ Part, particle
+12Du+	!!= * @CODE@ 12, first person dual inclusive
+13Du+	!!= * @CODE@ 13, first person dual exclusive
+1Pl+
+1PlO+
+1Sg+	!!= * @CODE@ 1,
+1SgO+
+2Du+	!!= * @CODE@ 22, second person dual
+2Pl+
+2PlO+
+2Sg+	!!= * @CODE@ 2
+2SgO+
+3Du+	!!= * @CODE@ 33, third person dual
+3Pl+
+3Sg+	!!= * @CODE@ 3
+3SgO+
+4Sg+	!!= * @CODE@ 4, the other
+4SgO+
+Ar+		!!= * @CODE@ 5, areal subject, it (place, condition, weather)
+Th+		!!= * @CODE@ Th, thematic prefix
+Unsp+	!!= * @CODE@ 0, Unspecified person
+UnspS+	!!= * @CODE@ 0, Unspecified person
+UnspO+	!!= * @CODE@ 0, Unspecified person
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-Nouns   ;
-Verbs   ;
 Adjectives  ;
-Pronouns    ;
-Numerals    ;
-Prefixes    ;
-Postpositions ;
 Adverbs ;
-Particles ;
 Conjunctions ;
+Nouns   ;
+Numerals    ;
+Particles ;
+Postpositions ;
+Prefixes    ;
+Pronouns    ;
+Verbs   ;
 
 
