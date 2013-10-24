@@ -1,0 +1,30 @@
+
+!! Dene Suline postpositions
+
+LEXICON p
++Po: # ;
++PI+: Verbs ;
+
+LEXICON Postpositions
+        postposstems ;
+1Sg+:se postposstems ;
+2Sg+:ne postposstems ;
+3Sg+:be postposstems ;
+4Sg+:ye postposstems ;
+1Du+:nuhe postposstems ;
+2Du+:nuhe postposstems ;
+3Du+:hube postposstems ;
+1Pl+:nuhe postposstems ;
+2Pl+:nuhe postposstems ;
+3Pl+:hube postposstems ;
+Ar+:ho  postposstems ;
+
+Recipr+:ɂełe postposstems ;
+Refl+:ɂede postposstems ;
+
+
+LEXICON postposstems
+yé p ;
+ba p ;
+
+

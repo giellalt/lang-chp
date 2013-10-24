@@ -3,6 +3,7 @@
 !! Nouns in Dene
 
 LEXICON Nouns
+        nounstems ;
 1Sg+:se nounstems ;
 2Sg+:ne nounstems ;
 3Sg+:be nounstems ;
@@ -13,8 +14,8 @@ LEXICON Nouns
 2Pl+:nuhe nounstems ;
 3Pl+:hube nounstems ;
 Unsp+:ɂe  nounstems ; ! general person
-Ar+:ho    nounstems ; ! areal
-          nounstems ;
+Recipr+:ɂełe nounstems ;
+Refl+:ɂede nounstems ;
 
 LEXICON nounstems
 bes ALI_VH "knife" ;
