@@ -74,6 +74,7 @@ Ar+		!!= * @CODE@ 5, areal subject, it (place, condition, weather)
 +Prt	!!= * @CODE@ T, tense (past)
 Th+		!!= * @CODE@ Th, thematic prefix
 +V		!!= * @CODE@ V, verb
++Part   !!= * @CODE@ Part, particle
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
@@ -85,4 +86,8 @@ Pronouns    ;
 Numerals    ;
 Prefixes    ;
 Postpositions ;
+Adverbs ;
+Particles ;
+Conjunctions ;
+
 
