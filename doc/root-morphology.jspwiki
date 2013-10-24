@@ -10,11 +10,12 @@ The morphological analyses of wordforms of Dene Suline are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
+ * +PNS    possessed noun suffix
  * Unsp+	 0, Unspecified person
  * 1Sg+	 1,
  * 2Sg+	 2
  * 3Sg+	 3
- * 4sg+	 4, the other
+ * 4Sg+	 4, the other
  * Ar+		 5, areal subject, it (place, condition, weather)
  * 12Du+	 12, first person dual inclusive
  * 13Du+	 13, first person dual exclusive
@@ -50,7 +51,9 @@ in this system in terms of following symbols.
  * +Prt	 T, tense (past)
  * Th+		 Th, thematic prefix
  * +V		 V, verb
+ * +Part    Part, particle
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
 
