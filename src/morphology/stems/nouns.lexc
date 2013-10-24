@@ -12,9 +12,11 @@ LEXICON Nouns
 1Pl+:nuhe nounstems ;
 2Pl+:nuhe nounstems ;
 3Pl+:hube nounstems ;
-Unsp+:qe  nounstems ; ! general person
-Ar+:ho    nounstems ; ! areal person
+Unsp+:ɂe  nounstems ; ! general person
+Ar+:ho    nounstems ; ! areal
           nounstems ;
 
 LEXICON nounstems
 bes ALI_VH "knife" ;
+dáda ALI_VH "sickness" ;
+
