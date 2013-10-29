@@ -67,6 +67,8 @@ in this system in terms of following symbols.
  * Ar+		 5, areal subject, it (place, condition, weather)
  * Th+		 Th, thematic prefix
  * Unsp+	 0, Unspecified person
+ * UnspS+	 0, Unspecified person
+ * UnspO+	 0, Unspecified person
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
