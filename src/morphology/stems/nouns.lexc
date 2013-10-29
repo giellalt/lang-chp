@@ -16,6 +16,7 @@ LEXICON Nouns
 Unsp+:ɂe  nounstems ; ! general person
 Recipr+:ɂełe nounstems ;
 Refl+:ɂede nounstems ;
+Ar+:ho nounstems ;
 
 LEXICON nounstems
 bes ALI_VH "knife" ;
