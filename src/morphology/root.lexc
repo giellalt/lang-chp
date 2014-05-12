@@ -99,11 +99,11 @@ UnspO+	!!= * @CODE@ 0, Unspecified person
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-Adjectives  ;
+!Adjectives  ; ! are there adjectives?
 Adverbs ;
 Conjunctions ;
 Nouns   ;
-Numerals    ;
+Numerals ;
 Particles ;
 Postpositions ;
 !Prefixes    ;
