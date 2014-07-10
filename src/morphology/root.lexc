@@ -16,7 +16,7 @@
 ! !!              !!!Dene Suline morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
- 
+
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
@@ -62,7 +62,7 @@ NI+		!!= * @CODE@ NI, noun incorporation (probably not a tag)
 Opt+	!!= * @CODE@ opt, optative
 +PI+	!!= * @CODE@ postposition incorporation (hmm)
 +PNS   !!= * @CODE@ possessed noun suffix
-+Part   !!= * @CODE@ Part, particle 
++Part   !!= * @CODE@ Part, particle
 +Pl		!!= * @CODE@ pl, Plural
 +Po		!!= * @CODE@ P, Postposition
 Prf+	!!= * @CODE@ perf, perfective
