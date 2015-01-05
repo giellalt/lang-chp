@@ -70,6 +70,8 @@ AC_SUBST([GTLANG], [chp])
 # should be the ISO 639-1 two-letter code if possible, otherwise usually same
 # as above
 AC_SUBST([GTLANG2], [chp])
+# GTLANGUAGE is the full language name as given by the ISO 639-3 file
+AC_SUBST([GTLANGUAGE], ["Chipewyan"])
 
 # We need special treatment of Java paths in Cygwin:
 AC_CANONICAL_HOST
