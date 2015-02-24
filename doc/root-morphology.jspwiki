@@ -30,7 +30,7 @@ in this system in terms of following symbols.
  * NI+		 NI, noun incorporation (probably not a tag)
  * +Neg	 neg, negative
  * +Num	 num, Numeral
- * +Obj	 O, Object (have a look at this)
+ * +Sem/Obj	 O, Object (have a look at this)
  * Opt+	 opt, optative
  * +PI+	 postposition incorporation (hmm)
  * +PNS    possessed noun suffix
