@@ -43,7 +43,7 @@ in this system in terms of following symbols.
  * +Qt		 Qt, quantifier
  * Recipr+	 rec, reciprocal
  * Refl+	 refl, reflexive
- * +Err/Sub  Substandard, not implemented
+ * +Err/Orth  Substandard, not implemented
  * +V		 V, verb
  * 12Du+	 12, first person dual inclusive
  * 13Du+	 13, first person dual exclusive
