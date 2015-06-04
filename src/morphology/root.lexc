@@ -27,57 +27,37 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 
-Adv+
-Distr+
-Gen1+
-Gen2+
-Gen3+
-Incept+
-Ser+
-Semel+
-Cl/l+
-Cl/ł+
-Cl/d+
-Cl/0+
-
 +Asp	!!= * @CODE@ asp, aspect
 +Dem	!!= * @CODE@ D, demonstrative
 +Dim	!!= * @CODE@ dim, diminutive
 +Du		!!= * @CODE@ du, dual
++Err/Orth !!= * @CODE@ Substandard, not implemented
 +Foc	!!= * @CODE@ foc, focus
 +Hab	!!= * @CODE@ hab, habitual
-+Sem/Hum		!!= * @CODE@ Human
-Impf+	!!= * @CODE@ imp, imperfective (or prefix?)
 +Imprs	!!= * @CODE@ impers, impersonal (+Impers?)
 +Inc	!!= * @CODE@ inc, inceptive (Incpt?)
 +Inch	!!= * @CODE@ incho, inchoative
-Iter+	!!= * @CODE@ iter, iterative
 +Mod	!!= * @CODE@ M mode (this seems more like category than property)
 +Mom	!!= * @CODE@ momentaneous
 +N		!!= * @CODE@ N, noun
-NI+		!!= * @CODE@ NI, noun incorporation (probably not a tag)
 +Neg	!!= * @CODE@ neg, negative
 +Num	!!= * @CODE@ num, Numeral
-+Sem/Obj	!!= * @CODE@ O, Object (have a look at this)
-Opt+	!!= * @CODE@ opt, optative
-+PI+	!!= * @CODE@ postposition incorporation (hmm)
-+PNS   !!= * @CODE@ possessed noun suffix
++PI+	!!= * @CODE@ postposition incorporation (this is not a Morphosyn tag :-(
++PNS    !!= * @CODE@ possessed noun suffix (this is not a Morphosyn tag :-(
 +Part   !!= * @CODE@ Part, particle
 +Pl		!!= * @CODE@ pl, Plural
 +Po		!!= * @CODE@ P, Postposition
-Prf+	!!= * @CODE@ perf, perfective
 +Prt	!!= * @CODE@ T, tense (past)
 +Qst	!!= * @CODE@ Q, question marker
 +Qt		!!= * @CODE@ Qt, quantifier
-Recipr+	!!= * @CODE@ rec, reciprocal
-Refl+	!!= * @CODE@ refl, reflexive
-+Err/Orth !!= * @CODE@ Substandard, not implemented
++Sem/Hum		!!= * @CODE@ Human
++Sem/Obj	!!= * @CODE@ O, Object (have a look at this)
 +V		!!= * @CODE@ V, verb
 12Du+	!!= * @CODE@ 12, first person dual inclusive
 13Du+	!!= * @CODE@ 13, first person dual exclusive
-1Pl+
-1PlO+
-1Sg+	!!= * @CODE@ 1,
+1Pl+     !!= * @CODE@ 12, first person plural inclusive
+1PlO+   !!= * @CODE@ 12, first person plural inclusive O
+1Sg+	!!= * @CODE@ 1, first person singular
 1SgO+
 2Du+	!!= * @CODE@ 22, second person dual
 2Pl+
@@ -90,11 +70,30 @@ Refl+	!!= * @CODE@ refl, reflexive
 3SgO+
 4Sg+	!!= * @CODE@ 4, the other
 4SgO+
+Adv+
 Ar+		!!= * @CODE@ 5, areal subject, it (place, condition, weather)
-Th+		!!= * @CODE@ Th, thematic prefix
+Cl/0+
+Cl/?+
+Cl/d+
+Cl/l+
+Distr+
+Gen1+
+Gen2+
+Gen3+
+Impf+	!!= * @CODE@ imp, imperfective (or prefix?)
+Incept+
+Iter+	!!= * @CODE@ iter, iterative
+NI+		!!= * @CODE@ NI, noun incorporation (probably not a tag)
+Opt+	!!= * @CODE@ opt, optative
+Prf+	!!= * @CODE@ perf, perfective
+Recipr+	!!= * @CODE@ rec, reciprocal
+Refl+	!!= * @CODE@ refl, reflexive
+Semel+
+Ser+
+Th+		!!= * @CODE@ Th, thematic prefix  (probably not a tag)
 Unsp+	!!= * @CODE@ 0, Unspecified person
-UnspS+	!!= * @CODE@ 0, Unspecified person
 UnspO+	!!= * @CODE@ 0, Unspecified person
+UnspS+	!!= * @CODE@ 0, Unspecified person
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -125,17 +124,16 @@ UnspO+	!!= * @CODE@ 0, Unspecified person
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
-!! word classes, or optionally from prefixes:
-!Adjectives  ; ! are there adjectives?
+!! The word forms in Dene Suline language start from noun and verb prefixes
+
+NounPrefixes   ;
+VerbPrefixes   ;
+
 Adverbs ;
 Conjunctions ;
-Nouns   ;
 Numerals ;
 Particles ;
 Postpositions ;
-!Prefixes    ;
 Pronouns    ;
-Verbs   ;
 
 

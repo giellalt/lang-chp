@@ -1,6 +1,26 @@
-!! Noun inflection
-!! ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! !!!Noun inflection
+
+
+!! !!Prefixes
+
+LEXICON NounPrefixes
+        nounstems ;
+1Sg+:se nounstems ;
+2Sg+:ne nounstems ;
+3Sg+:be nounstems ;
+4Sg+:ye nounstems ;
+1Du+:nuhe nounstems ;
+2Du+:nuhe nounstems ;
+1Pl+:nuhe nounstems ;
+2Pl+:nuhe nounstems ;
+3Pl+:hube nounstems ;
+Unsp+:ɂe  nounstems ; ! general person
+Recipr+:ɂełe nounstems ;
+Refl+:ɂede nounstems ;
+Ar+:ho nounstems ;
+
+
+!! !!Suffixes
 
 LEXICON ALI_VH
 +N+PNS:%>é # ;

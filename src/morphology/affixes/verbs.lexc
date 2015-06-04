@@ -2,15 +2,125 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
-LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
+LEXICON VerbPrefixes
+Adv+: T10 ;
+       T9 ;
+      
+LEXICON T10 
+:shé   	T9 ;
+:łeghá  T9 ;
+:da	   	T9 ;
+:dzí   	T9 ;
+:xa	   	T9 ;
+:ná	   	T9 ;
+:ní     T9 ; ! flag for ní...gha
 
-! vim: set ft=xfst-lexc:
+LEXICON T9
+ T8 ;
+Distr+:dá T8 ;
+
+LEXICON T8
+ T7 ;
+Iter+:na T7 ;
+
+LEXICON T7 
+ T6 ;
+NI+:la T6 ;
+NI+:dhá T6 ;
+NI+:ts’ah T6 ;
+NI+:tł’uł T6 ;
+
+LEXICON T6
+ T5 ;
+1SgO+:se T5 ;
+2SgO+:ne T5 ;
+3SgO+:be T5 ;
+3SgO+: T5 ;
+4SgO+:ye T5 ;
+1DuO+:nuhe T5 ;
+2DuO+:nuhe T5 ;
+1PlO+:nuhe T5 ;
+2PlO+:nuhe T5 ;
+Unsp+:ɂe T5 ;
+Refl+:ɂede	 T5 ;
+Recipr+:ɂełe T5 ;
+Ar+:ho		 T5 ;
+
+LEXICON T5 
+UnspS+:ts’e T4 ;
+Du3+:he T4 ;
+Ar+:ho T4 ;
+ T4 ;
+
+LEXICON T4
+T3 ;
+Gen1+:de T3 ;
+Gen2+:ne T3 ;
+Gen3+:ho T3 ;
+Incept+:te T3 ;
+Incept+:he T3 ;
+Ser+:i	 T3 ;
+Ser+:u	 T3 ;
+Semel+:é T3 ;
+Semel+:i T3 ;
+
+LEXICON T3
+!Cm/th+:the T2 ;
+!Cm/n+:ne T2 ;
+!Cm/gh+:ghe T2 ;
+!Cm/0+: T2 ;
+
+
+Impf+Sg1+:s V_0_TH ;
+Impf+Sg1+:s V_0_GH ;
+Impf+Sg1+:s V_N_N ;
+Impf+Sg1+:s V_TH_GH ;
+
+Impf+Sg2+:ne V_0_TH ;
+Impf+Sg2+:ne V_0_GH ;
+Impf+Sg2+:ne V_N_N ;
+Impf+Sg2+:ne V_TH_GH ;
+
+Impf+Sg3+: V_0_TH ;
+Impf+Sg3+: V_0_GH ;
+Impf+Sg3+: V_N_N ;
+Impf+Sg3+: V_TH_GH ;
+
+Impf+Du1+:id V_0_TH ;
+Impf+Du1+:id V_0_GH ;
+Impf+Du1+:id V_N_N ;
+Impf+Du1+:id V_TH_GH ;
+Impf+Pl1+:id V_0_TH ;
+Impf+Pl1+:id V_0_GH ;
+Impf+Pl1+:id V_N_N ;
+Impf+Pl1+:id V_TH_GH ;
+
+Impf+Du2+:uh V_0_TH ;
+Impf+Du2+:uh V_0_GH ;
+Impf+Du2+:uh V_N_N ;
+Impf+Du2+:uh V_TH_GH ;
+Impf+Pl2+:uh V_0_TH ;
+Impf+Pl2+:uh V_0_GH ;
+Impf+Pl2+:uh V_N_N ;
+Impf+Pl2+:uh V_TH_GH ;
+
+Impf+Du3+: V_0_TH ;
+Impf+Du3+: V_0_GH ;
+Impf+Du3+: V_N_N ;
+Impf+Du3+: V_TH_GH ;
+Impf+Pl3+: V_0_TH ;
+Impf+Pl3+: V_0_GH ;
+Impf+Pl3+: V_N_N ;
+Impf+Pl3+: V_TH_GH ;
+
+!Prf+Sg1+Cl/l+:ghil V_0_GH ;
+!Prf+Sg1+C:i V_0_GH ;
+!Prf+Sg1+:thi V_0_GH ;
+!Prf+Sg1+:thi V_0_GH ;
+!Sg1+:n V_N_N ;
+!Sg+:th V_TH_GH ;
+!Opt+:wa T2 ;
+ 
+
+
 
