@@ -3,7 +3,7 @@
 
 LEXICON p
 +Po: # ;
-+PI+: Verbs ;
++PI+: VerbPrefixes ;
 
 LEXICON Postpositions
         postposstems ;
