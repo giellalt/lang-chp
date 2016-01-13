@@ -22,9 +22,9 @@ Rules
 "Intervocalic Voicing"
  s:z <=> Vow _ %>: Vow ;
 
-!€ as>a
-!€ az0a
+!!€ as>a
+!!€ az0a
 
-!€ as>a
-!€ at0a
+!!€ as>a
+!!€ at0a
 
