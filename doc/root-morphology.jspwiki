@@ -2,12 +2,11 @@
              !!!Dene Suline morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
 
-
- !!!Multichar_Symbols definitions
+ !!!Definitions for Multichar_Symbols
 
 !!Analysis symbols
-The morphological analyses of wordforms of Dene Suline are presented
-in this system in terms of following symbols.
+The morphological analyses of wordforms for Dene Suline are presented
+in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 
@@ -89,7 +88,4 @@ given the proper use of these flags.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 The word forms in Dene Suline language start from noun and verb prefixes
-
-
-
 
