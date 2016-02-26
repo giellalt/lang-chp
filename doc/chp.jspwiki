@@ -1,24 +1,23 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Chipewyan analyser giella-chp
 
-;Authors: Divvun and Giellatekno teams, Aajege, community members
+;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!GTSVN-sma
+!!!giella-chp
 
-This is free and open source South Sámi morphology.
+This is free and open source Chipewyan morphology.
 
              !!!Dene Suline morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
 
-
- !!!Multichar_Symbols definitions
+ !!!Definitions for Multichar_Symbols
 
 !!Analysis symbols
-The morphological analyses of wordforms of Dene Suline are presented
-in this system in terms of following symbols.
+The morphological analyses of wordforms for Dene Suline are presented
+in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 
@@ -100,7 +99,4 @@ given the proper use of these flags.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 The word forms in Dene Suline language start from noun and verb prefixes
-
-
-
 
