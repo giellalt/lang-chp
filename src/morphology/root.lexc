@@ -125,14 +125,12 @@ UnspS+	!!= * @CODE@ 0, Unspecified person
 LEXICON Root
 !! The word forms in Dene Suline language start from noun and verb prefixes
 
+Adverbs        ;
+Conjunctions   ;
 NounPrefixes   ;
+Numerals       ;
+Particles      ;
+Postpositions  ;
+Pronouns       ;
+Punctuation    ;
 VerbPrefixes   ;
-
-Adverbs ;
-Conjunctions ;
-Numerals ;
-Particles ;
-Postpositions ;
-Pronouns    ;
-
-
