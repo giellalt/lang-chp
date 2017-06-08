@@ -3,6 +3,7 @@ Multichar_Symbols
 @U.VALENCE.INTRANSITIVE@
 @U.ASPECT.IPFV@
 @U.ASPECT.PFV@
+@R.ASPECT.OPT@
 @U.ASPECT.PROG@
 @U.ASPECT.POT@
 @U.SUBJECTPERSON.1@
@@ -10,6 +11,7 @@ Multichar_Symbols
 @U.SUBJECTPERSON.3@
 @U.SUBJECTPERSON.4@
 @U.SUBJECTNUMBER.SG@
+@U.SUBJECTNUMBER.DU@
 @U.SUBJECTNUMBER.PL@
 @R.DISTRIBUTIVE.ON@
 @R.DISTRIBUTIVE.OFF@
@@ -20,13 +22,17 @@ Multichar_Symbols
 
 +Ipfv
 +Pfv
-+Prog
-+Pot
++Opt
+! +Prog
+! +Pot
 
 +Sg1
 +Sg2
 +Sg3
 +Sg4
++Du1
++Du2
++Du3
 +Pl1
 +Pl2
 +Pl3
@@ -47,8 +53,9 @@ LEXICON Transitive
 LEXICON Aspect
 @U.ASPECT.IPFV@ IPFV ;
 @U.ASPECT.PFV@ PFV ;
-@U.ASPECT.PROG@ PROG;
-@U.ASPECT.POT@ POT ;
+@R.ASPECT.OPT@ OPT ;
+! @U.ASPECT.PROG@ PROG ;
+! @U.ASPECT.POT@ POT ;
 
 LEXICON IPFV
 +Ipfv:0 PersonNumber ;
@@ -56,17 +63,23 @@ LEXICON IPFV
 LEXICON PFV
 +Pfv:0 PersonNumber ;
 
-LEXICON PROG
-+Prog:0 PersonNumber ;
+LEXICON OPT
++Opt:0 PersonNumber ;
 
-LEXICON POT
-+Pot:0 PersonNumber ;
+! LEXICON PROG
+! +Prog:0 PersonNumber ;
+
+! LEXICON POT
+! +Pot:0 PersonNumber ;
 
 Lexicon PersonNumber
 @U.SUBJECTPERSON.1@@U.SUBJECTNUMBER.SG@ SG1 ;
 @U.SUBJECTPERSON.2@@U.SUBJECTNUMBER.SG@ SG2 ;
 @U.SUBJECTPERSON.3@@U.SUBJECTNUMBER.SG@ SG3 ;
 @U.SUBJECTPERSON.4@@U.SUBJECTNUMBER.SG@ SG4 ;
+@U.SUBJECTPERSON.1@@U.SUBJECTNUMBER.DU@ DU1 ;
+@U.SUBJECTPERSON.2@@U.SUBJECTNUMBER.DU@ DU2 ;
+@U.SUBJECTPERSON.3@@U.SUBJECTNUMBER.DU@ DU3 ;
 @U.SUBJECTPERSON.1@@U.SUBJECTNUMBER.PL@ PL1 ;
 @U.SUBJECTPERSON.2@@U.SUBJECTNUMBER.PL@ PL2 ;
 @U.SUBJECTPERSON.3@@U.SUBJECTNUMBER.PL@ PL3 ;
@@ -83,16 +96,25 @@ Lexicon SG3
 Lexicon SG4
 +Sg4:0 # ;
 
+Lexicon DU1
++Du1:0 # ;
+
+Lexicon DU2
++Du2:0 # ;
+
+Lexicon DU3
++Du3:0 # ;
+
 Lexicon PL1
-+Pl1:0 Distributive ;
++Pl1:0 # ;
 
 Lexicon PL2
-+Pl2:0 Distributive ;
++Pl2:0 # ;
 
 Lexicon PL3
-+Pl3:0 Distributive ;
++Pl3:0 # ;
 
-Lexicon Distributive
-@R.DISTRIBUTIVE.OFF@ # ;
-@R.DISTRIBUTIVE.ON@+Distr:@R.DISTRIBUTIVE.ON@0 # ;
+! Lexicon Distributive
+! @R.DISTRIBUTIVE.OFF@ # ;
+! @R.DISTRIBUTIVE.ON@+Distr:@R.DISTRIBUTIVE.ON@0 # ;
 
