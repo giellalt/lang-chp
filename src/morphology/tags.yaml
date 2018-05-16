@@ -4,25 +4,14 @@ args:
 dictitems:
   Sem: !!set
     !!python/unicode 'Sem/Hum': null
-  Use: !!set
-    !!python/unicode 'Use/Circ': null
-    !!python/unicode 'Use/Sub': null
   resten: !!set
     ? !!python/unicode ''
     : null
-    !!python/unicode '/-': null
     !!python/unicode '1Sg': null
     !!python/unicode '2Sg': null
-    !!python/unicode 'ABBR': null
     !!python/unicode 'CLB': null
     !!python/unicode 'Dem': null
-    !!python/unicode 'LEFT': null
-    !!python/unicode 'N': null
-    !!python/unicode 'PI': null
-    !!python/unicode 'PUNCT': null
     !!python/unicode 'Pers': null
-    !!python/unicode 'Po': null
     !!python/unicode 'Pron': null
-    !!python/unicode 'RIGHT': null
     !!python/unicode 'Sg': null
     !!python/unicode 'V': null
