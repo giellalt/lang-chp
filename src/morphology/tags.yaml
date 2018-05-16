@@ -1,17 +1,12 @@
-!!python/object/apply:collections.defaultdict
-args:
-- !!python/name:__builtin__.set ''
-dictitems:
-  Sem: !!set
-    !!python/unicode 'Sem/Hum': null
-  resten: !!set
-    ? !!python/unicode ''
-    : null
-    !!python/unicode '1Sg': null
-    !!python/unicode '2Sg': null
-    !!python/unicode 'CLB': null
-    !!python/unicode 'Dem': null
-    !!python/unicode 'Pers': null
-    !!python/unicode 'Pron': null
-    !!python/unicode 'Sg': null
-    !!python/unicode 'V': null
+Sem
+	Sem/Hum
+resten
+	
+	1Sg
+	2Sg
+	CLB
+	Dem
+	Pers
+	Pron
+	Sg
+	V
