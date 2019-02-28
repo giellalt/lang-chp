@@ -93,6 +93,7 @@ Th+		!!= * @CODE@ Th, thematic prefix  (probably not a tag)
 Unsp+	!!= * @CODE@ 0, Unspecified person
 UnspO+	!!= * @CODE@ 0, Unspecified person
 UnspS+	!!= * @CODE@ 0, Unspecified person
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
