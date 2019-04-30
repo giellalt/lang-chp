@@ -69,6 +69,7 @@ in this system in terms of the following symbols.
  * Unsp+	 0, Unspecified person
  * UnspO+	 0, Unspecified person
  * UnspS+	 0, Unspecified person
+ * +Symbol = independent symbols in the text stream, like £, €, ©
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
