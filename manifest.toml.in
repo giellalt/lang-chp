@@ -1,0 +1,9 @@
+name = "Chipewyan"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.chp"
+
+[windows]
+system_product_code = "EB54BC67-A5C1-4BB7-A3F5-1B38DBE83DB3"
+msoffice_product_code = "2248549B-9EF4-44B1-ABA7-6B9CF4C5A769"
