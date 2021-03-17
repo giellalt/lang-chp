@@ -1,15 +1,9 @@
 [What is this?|WhatIsThis.html]
 
 
-!!! Dynamic documentation
 
-* [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/chp/src/fst/stems/]   
-  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/chp/src/fst/affixes/] 
-  / [syntax|https://gtsvn.uit.no/langtech/trunk/langs/chp/src/syntax/] 
-  / [twolc|https://gtsvn.uit.no/langtech/trunk/langs/chp/src/phonology/chp-phon.twolc]   
-  / [yaml|https://gtsvn.uit.no/langtech/trunk/langs/chp/test/src/gt-norm-yamls/]
 
+ 
 !!! Project pages
 
 * [Alberta Language Technology Lab|http://altlab.artsrn.ualberta.ca/]
