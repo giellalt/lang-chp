@@ -1,7 +1,7 @@
-!! !!!Noun inflection
+!! # Noun inflection
 
 
-!! !!Prefixes
+!! ## Prefixes
 
 LEXICON NounPrefixes
         nounstems ;
@@ -20,7 +20,7 @@ Refl+:ɂede nounstems ;
 Ar+:ho nounstems ;
 
 
-!! !!Suffixes
+!! ## Suffixes
 
 LEXICON ALI_VH
 +N+PNS:%>é # ;
