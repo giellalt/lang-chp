@@ -1,0 +1,12 @@
+# Noun inflection
+
+
+## Prefixes
+
+
+
+## Suffixes
+
+
+
+

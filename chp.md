@@ -1,3 +1,73 @@
+# Noun inflection
+
+
+## Prefixes
+
+
+
+## Suffixes
+
+
+
+
+Proper noun inflection
+The Chipewyan language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Chipewyan language adjectives compare.
+
+
+
+Verb inflection
+The Chipewyan language verbs inflect in persons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================== !
+The Chipewyan morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *as>a*
+* *az0a*
+
+* *as>a*
+* *at0a*
+
 
 # Dene Suline morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
@@ -89,6 +159,109 @@ given the proper use of these flags.
  |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 The word forms in Dene Suline language start from noun and verb prefixes
+
+# Nouns
+Nouns in Dene
+
+
+
+Particles
+Particles are postverbal TAM and evidentiality and discourse markers
+
+
+
+Pronouns
+Denesųłine Pronouns 
+
+
+
+
+Dene Suline postpositions
+
+
+
+
+
+
+
+Adverbs
+Pronouns in UNDEFINED language are references to things.
+
+
+Adjectives
+Adjectives in the Chipewyan language describe things.
+
+
+Verbs
+Verbs in the Chipewyan language are actions.
+
+
+
+
+
+
+
+Conjunctions
+Pronouns in UNDEFINED language are references to things.
+
+
+Numerals
+Numerals in the Chipewyan language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
