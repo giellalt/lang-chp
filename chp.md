@@ -605,97 +605,6 @@ These were the set types.
 
 
 
-Conjunctions
-Pronouns in UNDEFINED language are references to things.
-
-
-
-Dene Suline postpositions
-
-
-
-
-
-
-
-# Nouns
-Nouns in Dene
-
-
-
-Numerals
-Numerals in the Chipewyan language are numbers.
-
-
-Adverbs
-Pronouns in UNDEFINED language are references to things.
-
-
-Verbs
-Verbs in the Chipewyan language are actions.
-
-
-
-
-
-
-
-Adjectives
-Adjectives in the Chipewyan language describe things.
-
-
-Pronouns
-Denesųłine Pronouns 
-
-
-
-Particles
-Particles are postverbal TAM and evidentiality and discourse markers
-
-
-
-=================================== !
-The Chipewyan morphophonological/twolc rules file !
-=================================== !
-
-
-
-
-
-
-
-
-* *as>a*
-* *az0a*
-
-* *as>a*
-* *at0a*
-
-
-# Symbol affixes
-
-
-
-
-
-# Noun inflection
-
-
-## Prefixes
-
-
-
-## Suffixes
-
-
-
-
-Proper noun inflection
-The Chipewyan language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
 Verb inflection
 The Chipewyan language verbs inflect in persons.
 
@@ -719,8 +628,99 @@ The Chipewyan language verbs inflect in persons.
 
 
 
+Proper noun inflection
+The Chipewyan language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
 Adjective inflection
 The Chipewyan language adjectives compare.
+
+
+
+# Noun inflection
+
+
+## Prefixes
+
+
+
+## Suffixes
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+=================================== !
+The Chipewyan morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *as>a*
+* *az0a*
+
+* *as>a*
+* *at0a*
+
+Verbs
+Verbs in the Chipewyan language are actions.
+
+
+
+
+
+
+
+Pronouns
+Denesųłine Pronouns 
+
+
+
+Numerals
+Numerals in the Chipewyan language are numbers.
+
+
+Conjunctions
+Pronouns in UNDEFINED language are references to things.
+
+
+
+Dene Suline postpositions
+
+
+
+
+
+
+
+Adjectives
+Adjectives in the Chipewyan language describe things.
+
+
+Adverbs
+Pronouns in UNDEFINED language are references to things.
+
+
+# Nouns
+Nouns in Dene
+
+
+
+Particles
+Particles are postverbal TAM and evidentiality and discourse markers
 
 
 
@@ -819,22 +819,6 @@ The word forms in Dene Suline language start from noun and verb prefixes
 
 
 
-We describe here how abbreviations are in Chipewyan are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -885,6 +869,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Chipewyan are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
