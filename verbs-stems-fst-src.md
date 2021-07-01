@@ -7,3 +7,5 @@ Verbs in the Chipewyan language are actions.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/verbs.lexc)</small>

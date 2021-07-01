@@ -90,3 +90,5 @@ given the proper use of these flags.
 
 The word forms in Dene Suline language start from noun and verb prefixes
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/root.lexc)</small>

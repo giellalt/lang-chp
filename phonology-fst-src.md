@@ -15,3 +15,5 @@ The Chipewyan morphophonological/twolc rules file !
 * *as>a*
 * *at0a*
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/phonology.twolc)</small>
