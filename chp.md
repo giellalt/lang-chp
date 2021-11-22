@@ -606,65 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-chp/blob/main/../src/cg3/functions.cg3)</small># Nouns
-Nouns in Dene
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/nouns.lexc)</small>
-Dene Suline postpositions
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/postpositions.lexc)</small>Conjunctions
-Pronouns in UNDEFINED language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/conjunctions.lexc)</small>Adverbs
-Pronouns in UNDEFINED language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/adverbs.lexc)</small>Adjectives
-Adjectives in the Chipewyan language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
-Verbs in the Chipewyan language are actions.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Chipewyan language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
-Denesųłine Pronouns 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/pronouns.lexc)</small>Particles
-Particles are postverbal TAM and evidentiality and discourse markers
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/particles.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-chp/blob/main/../src/cg3/functions.cg3)</small>=================================== !
 The Chipewyan morphophonological/twolc rules file !
 =================================== !
 
@@ -682,34 +624,7 @@ The Chipewyan morphophonological/twolc rules file !
 * *at0a*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/phonology.twolc)</small># Noun inflection
-
-
-## Prefixes
-
-
-
-## Suffixes
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
-The Chipewyan language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/phonology.twolc)</small>Verb inflection
 The Chipewyan language verbs inflect in persons.
 
 
@@ -740,7 +655,92 @@ nouns, but with a colon (':') as separator.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/propernouns.lexc)</small># Noun inflection
+
+
+## Prefixes
+
+
+
+## Suffixes
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+The Chipewyan language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/affixes/adjectives.lexc)</small>Particles
+Particles are postverbal TAM and evidentiality and discourse markers
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/particles.lexc)</small>Adverbs
+Pronouns in UNDEFINED language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/adverbs.lexc)</small>Pronouns
+Denesųłine Pronouns 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/pronouns.lexc)</small>Numerals
+Numerals in the Chipewyan language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/numerals.lexc)</small>Verbs
+Verbs in the Chipewyan language are actions.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/verbs.lexc)</small>Conjunctions
+Pronouns in UNDEFINED language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/conjunctions.lexc)</small># Nouns
+Nouns in Dene
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/nouns.lexc)</small>
+Dene Suline postpositions
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/postpositions.lexc)</small>Adjectives
+Adjectives in the Chipewyan language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/stems/adjectives.lexc)</small>
 # Dene Suline morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dene Suline.
 
