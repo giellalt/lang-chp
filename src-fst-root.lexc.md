@@ -9,7 +9,6 @@ The morphological analyses of wordforms for Dene Suline are presented
 in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-
 * +Asp	 asp, aspect
 * +Dem	 D, demonstrative
 * +Dim	 dim, diminutive
@@ -91,4 +90,8 @@ given the proper use of these flags.
 The word forms in Dene Suline language start from noun and verb prefixes
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chp/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/root.lexc)</small>
+
+---
+
