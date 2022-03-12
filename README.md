@@ -2,7 +2,7 @@ The Chipewyan (Dene Suline) morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/issues)
-[![Build Status](https://github.com/giellalt/lang-chp/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-chp/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-chp/main/badge.svg)](https://github.com/giellalt/lang-chp/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/blob/main/LICENSE)
 
 This repository contains finite state source files for the Chipewyan language,
