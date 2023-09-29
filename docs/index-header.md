@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-chp/main/badge.svg)](https://github.com/giellalt/lang-chp/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-chp/main/badge.svg)](https://github.com/giellalt/lang-chp/actions)
 
 This page documents the work on the [Chipewyan language model](https://github.com/giellalt/lang-chp).
 
