@@ -1,6 +1,10 @@
-# Chipewyan description 
+# Chipewyan language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-chp/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-chp/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The Chipewyan language adjectives compare.
 
 * * *
@@ -178,6 +189,8 @@ The Chipewyan language adjectives compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 
@@ -191,6 +204,8 @@ The Chipewyan language adjectives compare.
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 Proper noun inflection
 The Chipewyan language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
@@ -201,6 +216,8 @@ nouns, but with a colon (':') as separator.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -210,6 +227,8 @@ nouns, but with a colon (':') as separator.
 
 ---
 
+# src-fst-morphology-affixes-verbs.lexc.md 
+
 Verb inflection
 The Chipewyan language verbs inflect in persons.
 
@@ -218,6 +237,8 @@ The Chipewyan language verbs inflect in persons.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 The Chipewyan morphophonological/twolc rules file !
@@ -234,6 +255,8 @@ The Chipewyan morphophonological/twolc rules file !
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Dene Suline morphological analyser                      !
@@ -332,6 +355,8 @@ The word forms in Dene Suline language start from noun and verb prefixes
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 Adjectives
 Adjectives in the Chipewyan language describe things.
 
@@ -340,6 +365,8 @@ Adjectives in the Chipewyan language describe things.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 Adverbs
 Pronouns in UNDEFINED language are references to things.
@@ -350,6 +377,8 @@ Pronouns in UNDEFINED language are references to things.
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
 Conjunctions
 Pronouns in UNDEFINED language are references to things.
 
@@ -358,6 +387,8 @@ Pronouns in UNDEFINED language are references to things.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Nouns
 Nouns in Dene
@@ -368,6 +399,8 @@ Nouns in Dene
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 Numerals
 Numerals in the Chipewyan language are numbers.
 
@@ -376,6 +409,8 @@ Numerals in the Chipewyan language are numbers.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-particles.lexc.md 
 
 Particles
 Particles are postverbal TAM and evidentiality and discourse markers
@@ -386,6 +421,8 @@ Particles are postverbal TAM and evidentiality and discourse markers
 
 ---
 
+# src-fst-morphology-stems-postpositions.lexc.md 
+
 
 Dene Suline postpositions
 
@@ -394,6 +431,8 @@ Dene Suline postpositions
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 Pronouns
 Denesųłine Pronouns 
@@ -404,6 +443,8 @@ Denesųłine Pronouns
 
 ---
 
+# src-fst-morphology-stems-verbs.lexc.md 
+
 Verbs
 Verbs in the Chipewyan language are actions.
 
@@ -412,6 +453,8 @@ Verbs in the Chipewyan language are actions.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -580,6 +623,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Chipewyan are read out, e.g.
@@ -600,6 +645,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -613,6 +660,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -911,7 +960,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-chp/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for chp
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-chp/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for chp
 
 Usage:
 ```
@@ -973,6 +1029,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-chp/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for chp
 
@@ -1037,6 +1095,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1098,6 +1158,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-chp/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

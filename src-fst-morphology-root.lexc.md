@@ -92,6 +92,3 @@ The word forms in Dene Suline language start from noun and verb prefixes
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-chp/blob/main/src/fst/morphology/root.lexc)</small>
-
----
-
