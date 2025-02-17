@@ -23,7 +23,7 @@ endif # WANT_GENERATION
 XFAIL_TESTS=generate-verb-lemmas.sh \
 			generate-noun-lemmas.sh \
 			generate-adjective-lemmas.sh \
-			tag_test.sh
+			missing-multichars.sh
 
 
 include $(top_srcdir)/../giella-core/am-shared/devtest-include.am
