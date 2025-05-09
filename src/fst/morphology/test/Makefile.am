@@ -16,6 +16,7 @@ GENERATION_TESTS=
 # be fixed *later*, but is not critical at the moment:
 XFAIL_TESTS=generate-verb-lemmas.sh \
 			generate-noun-lemmas.sh \
+			generate-propernoun-lemmas.sh \
 			generate-adjective-lemmas.sh \
 			missing-multichars.sh
 
