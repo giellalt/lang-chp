@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-chp)](https://github.com/giellalt/lang-chp/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-chp?label=CI)](https://builds.giellalt.org/pipelines/lang-chp/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/chip1261)
 
 This page documents the work on the [Chipewyan language model](https://github.com/giellalt/lang-chp).
 
